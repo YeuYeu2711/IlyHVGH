@@ -6,97 +6,98 @@
   <title>Our Anniversary</title>
   <style>
     /* Embed Google Font Shalimar for a beautiful script style with Vietnamese support */
-    @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('[đã xoá URL không hợp lệ]');
 
-    body {
-      margin: 0;
-      overflow: hidden; /* Hide scrollbars */
-      /* Romantic pink/red/purple gradient background */
-      background: linear-gradient(to top right, #ffafbd, #ffc3a0, #ff7e5f, #feb47b, #e53935);
-      background-size: 400% 400%; /* Larger size for background movement effect */
-      animation: gradientShift 15s ease infinite; /* Background movement animation */
-      font-family: 'Shalimar', cursive, sans-serif; /* Changed to Shalimar font */
-      cursor: default; /* Ensure cursor doesn't change */
-      height: 100vh; /* Ensure body takes full viewport height */
-      width: 100vw; /* Ensure body takes full viewport width */
-      display: flex; /* Use flexbox for centering */
-      justify-content: center; /* Center horizontally */
-      align-items: center; /* Center vertically */
-    }
+body {
+margin: 0;
+overflow: hidden; /* Hide scrollbars /
+/ Romantic pink/red/purple gradient background /
+background: linear-gradient(to top right, #ffafbd, #ffc3a0, #ff7e5f, #feb47b, #e53935);
+background-size: 400% 400%; / Larger size for background movement effect /
+animation: gradientShift 15s ease infinite; / Background movement animation /
+font-family: 'Shalimar', cursive, sans-serif; / Changed to Shalimar font /
+cursor: default; / Ensure cursor doesn't change /
+height: 100vh; / Ensure body takes full viewport height /
+width: 100vw; / Ensure body takes full viewport width /
+display: flex; / Use flexbox for centering /
+justify-content: center; / Center horizontally /
+align-items: center; / Center vertically */
+}
 
-    /* Background gradient animation */
-    @keyframes gradientShift {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
+/* Background gradient animation */
+@keyframes gradientShift {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
 
-    .love-text {
-      position: absolute; /* Absolute position for free movement */
-      color: #FFFFFF; /* White text stands out on pink/red background */
-      font-size: 5.5vw; /* Increased font size for better readability */
-      font-weight: normal; /* Not bold for a softer look */
-      text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 5px rgba(255, 0, 0, 0.5); /* More sparkling shadow */
-      text-align: center; /* Center multi-line text */
-      top: 50%; /* Anchor point at vertical center */
-      left: 50%; /* Anchor point at horizontal center */
-      transform: translate(-50%, -50%) scale(0); /* Exactly center and initially hidden */
-      opacity: 0;
-      animation: appearStayFade var(--animation-duration) ease-in-out forwards; /* New animation */
-      will-change: transform, opacity; /* Optimize performance for animation */
-      z-index: 10; /* Ensure text is always on top */
-      max-width: 90vw; /* Add a max-width to ensure text doesn't go off screen */
-    }
+.love-text {
+position: absolute; /* Absolute position for free movement /
+color: #FFFFFF; / White text stands out on pink/red background /
+font-size: 5.5vw; / Increased font size for better readability /
+font-weight: normal; / Not bold for a softer look /
+text-shadow: 0 0 15px rgba(255, 255, 255, 0.7), 0 0 5px rgba(255, 0, 0, 0.5); / More sparkling shadow /
+text-align: center; / Center multi-line text /
+top: 50%; / Anchor point at vertical center /
+left: 50%; / Anchor point at horizontal center /
+transform: translate(-50%, -50%) scale(0); / Exactly center and initially hidden /
+opacity: 0;
+animation: appearStayFade var(--animation-duration) ease-in-out forwards; / New animation /
+will-change: transform, opacity; / Optimize performance for animation /
+z-index: 10; / Ensure text is always on top /
+max-width: 90vw; / Add a max-width to ensure text doesn't go off screen /
+line-height: 1.2; / Add line-height to handle potential multi-line text */
+}
 
-    @keyframes appearStayFade {
-      0% {
-        transform: translate(-50%, -50%) scale(0.2); /* Start small and faded */
-        opacity: 0;
-      }
-      20% {
-        transform: translate(-50%, -50%) scale(1); /* Appear and grow */
-        opacity: 1;
-      }
-      80% {
-        transform: translate(-50%, -50%) scale(1); /* Stay centered and visible */
-        opacity: 1;
-      }
-      100% {
-        transform: translate(-50%, -50%) scale(0.2); /* Shrink and fade out */
-        opacity: 0;
-      }
-    }
+@keyframes appearStayFade {
+0% {
+transform: translate(-50%, -50%) scale(0.2); /* Start small and faded /
+opacity: 0;
+}
+20% {
+transform: translate(-50%, -50%) scale(1); / Appear and grow /
+opacity: 1;
+}
+80% {
+transform: translate(-50%, -50%) scale(1); / Stay centered and visible /
+opacity: 1;
+}
+100% {
+transform: translate(-50%, -50%) scale(0.2); / Shrink and fade out */
+opacity: 0;
+}
+}
 
-    .bubble {
-      position: absolute;
-      border-radius: 50%;
-      /* Light pink/purple transparent bubbles */
-      background: rgba(255, 200, 220, 0.3); /* Lighter pink with transparency */
-      box-shadow: 0 0 10px rgba(255, 100, 150, 0.7); /* Soft shadow for bubbles */
-      animation: floatBubble var(--bubble-duration) linear infinite; /* Bubble floating animation */
-      will-change: transform, opacity, scale; /* Optimize performance */
-      pointer-events: none; /* Do not interfere with mouse events */
-      z-index: 5; /* Place below text */
-    }
+.bubble {
+position: absolute;
+border-radius: 50%;
+/* Light pink/purple transparent bubbles /
+background: rgba(255, 200, 220, 0.3); / Lighter pink with transparency /
+box-shadow: 0 0 10px rgba(255, 100, 150, 0.7); / Soft shadow for bubbles /
+animation: floatBubble var(--bubble-duration) linear infinite; / Bubble floating animation /
+will-change: transform, opacity, scale; / Optimize performance /
+pointer-events: none; / Do not interfere with mouse events /
+z-index: 5; / Place below text */
+}
 
-    @keyframes floatBubble {
-      0% {
-        transform: translateY(100vh) scale(0); /* Start from bottom, small and faded */
-        opacity: 0;
-      }
-      15% {
-        opacity: 0.7; /* Become more visible */
-        transform: translateY(85vh) scale(0.8);
-      }
-      85% {
-        opacity: 0.4; /* Fade out */
-        transform: translateY(-5vh) scale(1.2); /* Float near top */
-      }
-      100% {
-        transform: translateY(-20vh) scale(1.5); /* Float to top, grow, fade completely */
-        opacity: 0;
-      }
-    }
+@keyframes floatBubble {
+0% {
+transform: translateY(100vh) scale(0); /* Start from bottom, small and faded /
+opacity: 0;
+}
+15% {
+opacity: 0.7; / Become more visible /
+transform: translateY(85vh) scale(0.8);
+}
+85% {
+opacity: 0.4; / Fade out /
+transform: translateY(-5vh) scale(1.2); / Float near top /
+}
+100% {
+transform: translateY(-20vh) scale(1.5); / Float to top, grow, fade completely */
+opacity: 0;
+}
+}
   </style>
 </head>
 <body>
@@ -104,9 +105,8 @@
   <script>
     // Array of romantic messages
     const messages = [
-      
-      "27/11/2021",
       "N.T.M. Anh & H.V.G. Huy",
+      "27/11/2021",
       "Gửi chàng trai của em,",
       "Cảm giác gặp được anh giống như kiểu đi một đoạn đường rất xa, cuối cùng cũng được về nhà rồi",
       "Anh biết không,",
