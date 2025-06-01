@@ -1,22 +1,36 @@
 const texts = [
-    "I Love You",
-    "♥️ Mao Bông ♥️",
-    "Ti amo",
-    "Aishiteru",
-    "Saranghaeyo",
-    "Wǒ ài nǐ",
-    "Ya tebya lyublyu",
-    "Je t'aime",
+    "I Love You",           // Tiếng Anh
+    "♥️ Anh & Huy ♥️",     // Tiếng Việt (có thêm biểu tượng)
+    "Ti amo",               // Tiếng Ý
+    "Aishiteru",            // Tiếng Nhật (愛してる - cách nói mạnh mẽ, sâu sắc)
+    "Saranghaeyo",          // Tiếng Hàn (사랑해요)
+    "Wǒ ài nǐ",             // Tiếng Trung (我爱你)
+    "Ya tebya lyublyu",     // Tiếng Nga (Я тебя люблю)
+    "Je t'aime",            // Tiếng Pháp
+    "Te quiero",            // Tiếng Tây Ban Nha (cách nói nhẹ nhàng hơn, cũng dùng cho bạn bè)
+    "Ich liebe dich",       // Tiếng Đức
+    "Eu te amo",            // Tiếng Bồ Đào Nha
+    "Mahal kita",           // Tiếng Tagalog (Philippines)
+    "S'apamieyu",           // Tiếng Hy Lạp (Σ'αγαπώ)
+    "Mina rakastan sinua",  // Tiếng Phần Lan
+    "Jag älskar dig",       // Tiếng Thụy Điển
+    "Jeg elsker deg",       // Tiếng Na Uy / Tiếng Đan Mạch
+    "Inħobbok",             // Tiếng Malta
+    "Seni seviyorum",       // Tiếng Thổ Nhĩ Kỳ
+    "Volim te",             // Tiếng Croatia / Serbia
+    "Miluji tě",            // Tiếng Séc
+    "Ľúbim ťa",             // Tiếng Slovak
+    "Kocham cię",           // Tiếng Ba Lan
+    "Szeretlek",            // Tiếng Hungary
+    "Moi, je t'aime",       // Tiếng Pháp (cách nhấn mạnh)
+    "Minä rakastan sinua",  // Tiếng Phần Lan
+    "Ngo oi nei",           // Tiếng Quảng Đông (我愛你)
+    "Taim i' ngra leat",    // Tiếng Ireland (tôi yêu bạn)
+    "I love thee",          // Tiếng Anh cổ (hoặc thơ ca)
+    "Aşkım",                // Tiếng Thổ Nhĩ Kỳ (Tình yêu của tôi, cục cưng của tôi)
+    "You & Me",      // Tiếng Anh (thêm một cụm từ)
+    "Together Forever",     // Tiếng Anh (một cụm từ nữa)
 ];
-
-let images = [
-    "https://i.pinimg.com/736x/77/86/1a/77861aa910507e41754f68b5d60699b6.jpg",
-    "https://i.pinimg.com/736x/c3/84/9e/c3849e2eba19a1e8155b7464f9b89da8.jpg",
-    "https://i.pinimg.com/736x/5f/3c/71/5f3c71b061d9d56cb00e5fc1dd9f5969.jpg",
-    "https://i.pinimg.com/736x/94/59/66/9459664d0858ec81ba249d98fdb4ee3c.jpg",
-    "https://i.pinimg.com/736x/d9/09/c0/d909c0b86ea1a4e65495785db03ef636.jpg"
-];
-
 const scene = document.getElementById("scene");
 let rotateX = 0, rotateY = 0;
 let targetRotateX = 0, targetRotateY = 0;
