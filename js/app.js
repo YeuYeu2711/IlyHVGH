@@ -1,35 +1,9 @@
 const texts = [
      "I Love You",           // Tiếng Anh
-    "♥️ Anh & Huy ♥️",     // Tiếng Việt (có thêm biểu tượng)
-    "Ti amo",               // Tiếng Ý
-    "Aishiteru",            // Tiếng Nhật (愛してる - cách nói mạnh mẽ, sâu sắc)
-    "Saranghaeyo",          // Tiếng Hàn (사랑해요)
-    "Wǒ ài nǐ",             // Tiếng Trung (我爱你)
-    "Ya tebya lyublyu",     // Tiếng Nga (Я тебя люблю)
-    "Je t'aime",            // Tiếng Pháp
-    "Te quiero",            // Tiếng Tây Ban Nha (cách nói nhẹ nhàng hơn, cũng dùng cho bạn bè)
-    "Ich liebe dich",       // Tiếng Đức
-    "Eu te amo",            // Tiếng Bồ Đào Nha
-    "Mahal kita",           // Tiếng Tagalog (Philippines)
-    "S'apamieyu",           // Tiếng Hy Lạp (Σ'αγαπώ)
-    "Mina rakastan sinua",  // Tiếng Phần Lan
-    "Jag älskar dig",       // Tiếng Thụy Điển
-    "Jeg elsker deg",       // Tiếng Na Uy / Tiếng Đan Mạch
-    "Inħobbok",             // Tiếng Malta
-    "Seni seviyorum",       // Tiếng Thổ Nhĩ Kỳ
-    "Volim te",             // Tiếng Croatia / Serbia
-    "Miluji tě",            // Tiếng Séc
-    "Ľúbim ťa",             // Tiếng Slovak
-    "Kocham cię",           // Tiếng Ba Lan
-    "Szeretlek",            // Tiếng Hungary
-    "Moi, je t'aime",       // Tiếng Pháp (cách nhấn mạnh)
-    "Minä rakastan sinua",  // Tiếng Phần Lan
-    "Ngo oi nei",           // Tiếng Quảng Đông (我愛你)
-    "Taim i' ngra leat",    // Tiếng Ireland (tôi yêu bạn)
-    "I love thee",          // Tiếng Anh cổ (hoặc thơ ca)
-    "Aşkım",                // Tiếng Thổ Nhĩ Kỳ (Tình yêu của tôi, cục cưng của tôi)
-    "You & Me",      // Tiếng Anh (thêm một cụm từ)
-    "Together Forever",     // Tiếng Anh (một cụm từ nữa)
+    "♥️ Minh Anh & Gia Huy ♥️",     // Tiếng Việt (có thêm biểu tượng)
+    "Em yêu anh",
+     "Em yêu anh nhiều lắm",
+        "Happy 4th Anniversary",
 ];
 
 let images = [
