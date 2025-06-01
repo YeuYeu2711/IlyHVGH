@@ -1,9 +1,11 @@
+  /* Embed Google Font Shalimar for a beautiful script style with Vietnamese support */
+    @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
 body {
     margin: 0;
     padding: 0;
     overflow: hidden;
     height: 100vh;
-    font-family: "Parisienne", cursive;
+    font-family:  'Shalimar', cursive, sans-serif; /* Changed to Shalimar font */;
     perspective: 1000px;
     background: radial-gradient(circle at center, #200236, #000000 80%);
     width: 100%;
